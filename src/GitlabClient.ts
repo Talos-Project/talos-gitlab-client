@@ -6,7 +6,7 @@ import {  GitClient, Users, Snippets, RepositoryFiles,
 import { MergeRequestDecorator } from './MergeRequestDecorator';
 import { GitlabOwners } from './GitlabOwners';
 
-export class GitlabClient implements GitClient {
+export default class GitlabClient implements GitClient {
     MergeRequestNotes: MergeRequestNotes;
     MergeRequests: MergeRequests;
     Pipelines: Pipelines;
